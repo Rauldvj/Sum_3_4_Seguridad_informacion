@@ -93,8 +93,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'inventario_bomberos',
-        'USER': 'root',
-        'PASSWORD': '',
+        'USER': 'administrador',
+        'PASSWORD': 'admin1234',
+        'HOST: ''
     }
 }
 
