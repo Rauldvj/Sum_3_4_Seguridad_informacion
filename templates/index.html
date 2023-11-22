@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %} Index {% endblock %}
+
+{% block header %} 
+    <header class="bg-red-600 w-full border-b border-white p-4 text-yellow-200 font-bold text-3xl text-center">BIENVENIDO AL SISTEMA DE INVENTARIO</header>
+{% endblock %}
+
+{% block content %}
+
+<div class="mt-16">
+    <div class="flex justify-center">
+        <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg shadow-lg bg-gradient-to-r from-yellow-300 to-red-200">
+          
+          <!-- En este source se inserta el "Video" con la direccion url del bucket almacenado en la nube de AWS -->
+          <!-- <video class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" 
+          controls autoplay muted loop src="https://static-app-duermebien.s3.amazonaws.com/Videos/Playa+Cavancha.mp4"></video> -->
+          <div class="p-6 flex flex-col justify-start">
+            <h5 class="text-yellow-900 text-xl font-medium mb-2">Estimado Usuario</h5>
+            <p class="text-yellow-800 text-base mb-10">
+              Bienvenido al sistema de inventarios de bomberos de la compañia: 
+            </p>
+            <a href="{% url 'login' %}"
+                        class="text-center px-6 py-3 mb-10 text-orange-200 no-underline bg-gradient-to-r from-orange-800 via-yellow-600 to-orange-800 rounded hover:bg-purple-600 hover:underline hover:text-purple-200">ACCEDER</a>
+          </div>
+        </div>
+      </div>
+      
+</div>
+
+{% endblock content %}
+wx
