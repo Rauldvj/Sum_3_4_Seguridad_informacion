@@ -95,7 +95,8 @@ DATABASES = {
         'NAME': 'inventario_bomberos',
         'USER': 'administrador',
         'PASSWORD': 'admin1234',
-        'HOST: ''
+        'HOST: 'inventario-bomberos-db.cs3hz38bcmb0.us-east-1.rds.amazonaws.com'
+        'PORT':'3306'
     }
 }
 
