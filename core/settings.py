@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'inventario_bomberos',
+        'NAME': 'InventarioBomberos',
         'USER': 'administrador',
         'PASSWORD': 'admin1234',
         'HOST: 'inventario-bomberos-db.cs3hz38bcmb0.us-east-1.rds.amazonaws.com'
